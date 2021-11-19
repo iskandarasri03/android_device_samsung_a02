@@ -14,11 +14,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 $(call inherit-product, device/samsung/a02/device.mk)
 
 # Inherit some common Omni stuff.
-$(call inherit-product, vendor/twrp/config/common.mk)
+$(call inherit-product, vendor/omni/config/common.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := a02
-PRODUCT_NAME := twrp_a02
+PRODUCT_NAME := omni_a02
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-A022F
 PRODUCT_MANUFACTURER := samsung
